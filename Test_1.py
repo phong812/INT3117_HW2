@@ -5,7 +5,7 @@ def test_01():
 def test_02():
     assert Main.Calculate_ticket_price(17, 101, 500000) == 350000
 def test_03():
-    assert Main.Calculate_ticket_price(46, 120, 1001000) == -1
+    assert Main.Calculate_ticket_price(46, 120, 1000000) == 700000
 def test_04():
     assert Main.Calculate_ticket_price(30, 160, 200000) == 200000
 def test_05():
